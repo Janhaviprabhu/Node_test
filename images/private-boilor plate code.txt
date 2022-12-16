@@ -1,0 +1,85 @@
+function runProgram(input) {
+  }
+if (process.env.USER === "") {
+    runProgram(``);
+  } else {
+    process.stdin.resume();
+    process.stdin.setEncoding("ascii");
+    let read = "";
+    process.stdin.on("data", function (input) {
+      read += input;
+    });
+    process.stdin.on("end", function () {
+      read = read.replace(/\n$/, "");
+      read = read.replace(/\n$/, "");
+      runProgram(read);
+    });
+    process.on("SIGINT", function () {
+      read = read.replace(/\n$/, "");
+      runProgram(read);
+      process.exit(0);
+    });
+  }
+
+https://github.com/suFi7867/Bewakoof.com-Clone/tree/main/src/Components
+
+
+
+https://i.etsystatic.com/9277560/r/il/9b0d88/2460140196/il_794xN.2460140196_qu6n.jpg
+
+
+
+
+anagram problem
+
+
+function runProgram(input){
+    input = input.trim().split("\n")
+    let n = +input[0]
+    let arr = [];
+    let obj = {};
+    for(let i=0; i<n; i++)
+    {
+       if(obj[input[i+1].split("").sort().join("")]==undefined){
+           obj[input[i+1].split("").sort().join("")]= input[i+1]
+       }
+       let data = input[i+1].split("").sort().join("");
+    }
+    
+    for(key in obj){
+        arr.push(obj[key])
+    }
+    arr.sort();
+    console.log(arr.length)
+    for(let i=0; i<arr.length; i++){
+        console.log(arr[i])
+    }
+}
+
+if (process.env.USER === "") {
+  runProgram(``);
+} else {
+  process.stdin.resume();
+  process.stdin.setEncoding("ascii");
+  let read = "";
+  process.stdin.on("data", function (input) {
+    read += input;
+  });
+  process.stdin.on("end", function () {
+    read = read.replace(/\n$/, "");
+    read = read.replace(/\n$/, "");
+    runProgram(read);
+  });
+  process.on("SIGINT", function () {
+    read = read.replace(/\n$/, "");
+    runProgram(read);
+    process.exit(0);
+  });
+}
+
+
+
+
+A curious learner and excellent team player searching for a challenging position as a Software Engineer at MIL Inc. to utilise my technical 
+competencies, working knowledge of software development,
+ troubleshooting and networking services and excellent communication skills to grow as a Software Engineer.

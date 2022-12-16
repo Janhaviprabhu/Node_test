@@ -1,0 +1,15 @@
+Navbar  (Medicines page, Lab Test Page, Health Care-(Personal Care, HealthCare,
+ Homecare SkinCare, Health Food & Drinks), Value Store, Health Blog Page, Cart Count)
+
+1. Homepage
+2. log in/signup (verify phone No.)
+3. Product Page  (Filter)
+4. single Product Page
+5. Cart Page
+6. Test Booking Page
+7. Checkout Page
+8. Admin Panel // crud Op  
+
+
+
+Backend  Login/Signup =>
